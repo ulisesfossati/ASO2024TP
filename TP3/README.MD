@@ -4,3 +4,5 @@ A)Lo que se puede notar es que todos los tiempos de ejecucion son distintos, si 
 B) Compare con dos comapañeros y en todas las ejecuciones son distintos los tiempos.
 
 C) Lo que paso fue que al descomentar las lineas, el tiempo de ejecucion fue mucho mas lento, ya que al usar bucle for
+
+
