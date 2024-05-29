@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Académico</title>
+   
+    <!-- Bootstrap css -->    
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    
+    <!-- CSS propio -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/datatables/estilo.css">
+    
+    <!-- Datatable css basico -->    
+    <link rel="stylesheet" type="text/css" href="bootstrap/datatables/datatables.min.css">
+    
+    <!-- Datatable estilo bootstrap css -->    
+    <link rel="stylesheet" type="text/css" href="bootstrap/datatables/DataTables-1.12.1/css/dataTables.bootstrap4.min.css">
+
+	<!--<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> -->
+</head>
+
+<body>
+  <div class="container">
+     <div class="row" style="display:none">
+       <div class="col-lg-12">
+          <br>
+          <h4 class="text-center">Calendario Académico 2023</h4><br>
+          
+          <table id="2023" class="table " style="width:100%">
+              <thead>
+              <tr>
+                  <th width="20%">Año 2024</th>
+                  <th width="1%">&nbsp;</th>
+                  <th width="79%">Descripción</th>                  
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Lunes 29 de enero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Fin de Receso Académico 2023. (***)</td>                
+              </tr>
+              <tr>
+                <td>Jueves 1 febrero al viernes 8 de marzo</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Inscripción en asignaturas 1º semestre y anuales</td>                
+              </tr>
+              <tr>
+                <td>Viernes 9 de febrero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Fin receso Estival Universitario 2023 (**)</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Lunes 12 y Martes 13 de febrero</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Carnaval. Feriado</td>                
+              </tr>
+              <tr>
+                <td>Miércoles 14 al viernes 16 de febrero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (7º llamado)</td>                
+              </tr>
+              <tr>
+                <td>Lunes 19 de febrero al viernes 23 de febrero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (8º llamado)</td>                
+              </tr>
+              <tr>
+                <td>Viernes 23 de febrero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Fecha límite para entrega de notas de aprobación directa de materias anuales y 2° semestre 2023.<br>
+                Fecha límite de entrega de cursados 2° semestre y anuales 2023</td>                
+              </tr>
+              <tr>
+                <td>Lunes 26 de febrero al viernes 1 de marzo</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (9º llamado)</td>                
+              </tr>
+              <tr>
+                <td>Miércoles 6 de marzo</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (10º llamado).</td>                
+              </tr>
+              </tbody>
+              </table>
+          <br>
+          <p>(**) Receso estival: período que establece la Facultad para que los docentes gocen de su Licencia Anual Ordinaria (LAO), la que deberá ser comunicada a la Dirección de Recursos Humanos deésta Facultad Regional en un todo de acuerdo con el Convenio Colectivo de Trabajo (CCT) para Docentes de Instituciones Universitarias Nacionales.</p>
+          <p>(***) Receso académico: período en el cual no se desarrollan actividades académicas, a excepción del Seminario de Ingreso 2023.</p>
+	   </div>
+    </div>   
+    <div class="mb-5"></div>
+    <div class="row">
+       <div class="col-lg-12">
+          <h4 class="text-center">Calendario Académico 2024</h4><br>          
+		  <table id="2024" class="table " style="width:100%;display:block">
+              <thead>
+              <tr>
+                  <th width="20%">Año 2024</th>
+                  <th width="1%">&nbsp;</th>
+                  <th width="79%">Descripción</th>                  
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td style="background-color:#FFFFD9"><span style="font-weight:600;">Lunes 18 de marzo</span></td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td style="background-color:#FFFFD9"><span style="font-weight:600">Inicio de clases de 1º a 5º año carreras de grado, pregrado y Ciclos de Complementación Curricular</span> (CCC)</td>                
+              </tr>
+              <tr>
+                <td>Lunes 18 al miércoles 27 de marzo</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Evaluación diagnóstica correspondiente a materias anuales y del 1º semestre</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Domingo  24 de marzo</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Día Nacional de la Memoria por la Verdad y la Justicia. Feriado</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">28 y 29 de marzo</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Jueves y Viernes Santo. Feriado</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Lunes 1 de abril</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Feriado puente turístico</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Martes 2 de abril</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Día del Veterano y de los Caídos en la Guerra de Malvinas. Feriado</td>                
+              </tr>
+              <tr>
+                <td>Viernes  5 de abril</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Vencimiento de la presentación del plan anual de actividades académicas (PAAA) correspondiente a asignaturas troncales anuales y 1° semestre.</td>                
+              </tr>
+              
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Jueves 11 de abril</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Aniversario Fundación de Bahía Blanca. Feriado</td>                
+              </tr>
+              <tr>
+                <td>Viernes 12 de abril</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Vencimiento de la presentación del plan anual de actividades académicas (PAAA) correspondiente a las asignaturas electivas anuales y 1° semestre.</td>                
+              </tr>
+               <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Miércoles 1º de mayo</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Día del trabajador. Feriado</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Jueves 2 de mayo</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Día del docente universitario de la UTN. Suspensión de Clases</td>                
+              </tr>
+              <tr>
+                <td>Martes 07 de mayo</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (1º llamado) con suspensión de clases de 1º a 5º nivel en todos los turnos, para carreras de grado, pregrado y Ciclos de Complementación Curricular (CCC). Desde las 17:00 hasta las 20:00 se rendirán las asignaturas correspondientes a 1º y 2º año. A partir de las 20:00 hasta las 23:00 de 3º a 5º.- (1º llamado)</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Sábado 25 de mayo</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Día de la Revolución de Mayo. Feriado</td>                
+              </tr>
+              
+              <tr>
+                <td>Lunes 17 de junio al viernes 12 de julio</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Encuesta al estudiante acerca de su percepción respecto de la cátedra correspondiente al 1º semestre 2024.</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Lunes 17 de junio</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Paso a la inmortalidad del Gral. Martín Miguel de Güemes. Feriado (trasladable sujeto a disposición del PEN)</td>                
+              </tr>
+              
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Jueves 20 de junio</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Paso a la inmortalidad del Gral. Manuel Belgrano. Feriado (trasladable sujeto a disposición del PEN)</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Viernes 21 de junio</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Feriado puente turístico</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#FFFFD9"><span style="font-weight:600">Viernes 5 de Julio</span></td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td style="background-color:#FFFFD9"><span style="font-weight:600">Fin del dictado de clases del 1° semestre.</span></td>                
+              </tr>
+              <tr>
+                <td>Lunes 8 de julio al viernes 16 de agosto</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Inscripción en asignaturas del 2ºsemestre 2024</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Martes 9 de julio</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Día de la Independencia. Feriado</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Lunes 15 al viernes 26 de julio</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Receso de invierno (*)</td>                
+              </tr>
+              <tr>
+                <td>Lunes 29 de julio al viernes 2 de agosto</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (2º llamado)</td>                
+              </tr>
+               <tr>
+                <td>Lunes 5 de agosto</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Vencimiento de la presentación del informe anual del docente (IAD) correspondiente a asignaturas del 1º semestre 2024.</td>                
+              </tr>
+              <tr>
+                <td>Lunes 5 de agosto al viernes 9 de agosto</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (3º llamado)</td>                
+              </tr>
+              <tr>
+                <td>Viernes 9 de agosto</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Fecha límite para entregar notas de aprobación directa (AD) y entrega de cursados del 1° semestre 2024</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#FFFFD9"><span style="font-weight:600;">Lunes 12 de agosto</span></td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td style="background-color:#FFFFD9"><span style="font-weight:600;">Inicio de clases 2º semestre para carreras de grado, pregrado y Ciclos de Complementación Curricular (CCC)</span></td>                
+              </tr>
+              <tr>
+                <td>Lunes 12 de agosto al viernes 23 de agosto</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Evaluación diagnóstica correspondiente a asignaturas del 2º semestre 2024.</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Sábado 17 de agosto</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Paso a la inmortalidad del Gral. San Martín Feriado (trasladable sujeto a disposición del PEN).</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Lunes 19 de agosto</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f"> Aniversario de la U.T.N. Feriado</td>                
+              </tr>
+              
+              <tr>
+                <td>Viernes 23 de agosto</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Vencimiento de la presentación del plan anual de actividades académicas (PAAA) correspondiente a asignaturas troncales 2° semestre 2024.</td>                
+              </tr>
+              <tr>
+                <td>Viernes 30 de agosto</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Vencimiento de la presentación del plan anual de actividades académicas (PAAA) correspondiente a asignaturas electivas 2° semestre 2024</td>                
+              </tr>
+              <tr>
+                <td>Jueves 12 de septiembre</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (1º llamado) con suspensión de clases de 1º a 5º nivel en todos los turnos, para carreras de grado, pregrado y Ciclos de Complementación Curricular (CCC). Desde las 17:00 hasta las 20:00 se rendirán las asignaturas correspondientes a 1º y 2º año. A partir de las 20:00 hasta las 23:00 de 3º a 5º.- (4º llamado)</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Sábado 21 de septiembre</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Día del estudiante.</td>                
+              </tr>
+               <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Viernes 11 de octubre</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Feriado puente</td>                
+              </tr>
+               <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Sáabado 12 de octubre</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Día del Respeto a la Diversidad Cultural. Feriado</td>                
+              </tr>
+              <tr>
+                <td>Lunes 4 de noviembre al viernes 6 de diciembre</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Encuesta al estudiante acerca de su percepción respecto de la cátedra correspondiente al 2° semestre y anuales 2024.</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Lunes  18 de noviembre</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Día de la Soberanía Nacional. (Feriado trasladable correspondiente al 20 de noviembre)</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Martes 26 de noviembre</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Día del Nodocente (no se realizan únicamente actividades administrativas)</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#FFFFD9"><span style="font-weight:600;">Viernes 29 de noviembre</span></td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td style="background-color:#FFFFD9"><span style="font-weight:600;">Fin del dictado de clases 2° semestre y anuales 2024.</span></td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Domingo 8 de diciembre</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Inmaculada Concepción de la Virgen María. Feriado</td>                
+              </tr>
+              <tr>
+                <td>Lunes 9 de diciembre</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Vencimiento de la presentación del informe anual del docente (IAD) correspondiente a asignaturas anuales y del 2º semestre 2024.</td>                
+              </tr>
+              <tr>
+                <td>Lunes 9 al viernes 13 de diciembre</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno exámenes finales</span> (5º llamado)</td>                
+              </tr>
+              <tr>
+                <td>Lunes 16 al viernes 20 de diciembre</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno exámenes finales</span> (6º llamado)</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Miércoles 25 de diciembre</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Natividad de Nuestro Señor Jesucristo. Feriado</td>                
+              </tr>
+              <tr>
+                <td>Lunes 23 de diciembre</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Inicio receso Estival Universitario 2024. (**)</td>                
+              </tr>
+              <tr>
+                <td>Martes 30 de diciembre</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Inicio de Receso Académico 2024. (***)</td>                
+              </tr>
+              
+              <tr>
+                  <th width="20%">Año 2025</th>
+                  <th width="1%">&nbsp;</th>
+                  <th width="79%">Descripción</th>
+                  
+              </tr>
+              
+              <tr>
+                <td>Viernes 31 de enero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Fin de Receso Académico 2024. (***)</td>                
+              </tr>
+              <tr>
+                <td>Miércoles 3 febrero al viernes 7 de marzo</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Inscripción en asignaturas 1º semestre y anuales</td>                
+              </tr>
+              <tr>
+                <td>Miércoles 5 de febrero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Fin receso Estival Universitario 2024 (**)</td>                
+              </tr>
+              
+              <tr>
+                <td>Lunes 10 al viernes 14 de febrero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (7º llamado)</td>                
+              </tr>
+              <tr>
+                <td>Lunes 17 de febrero al viernes 21 de febrero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (8º llamado)</td>                
+              </tr>
+              <tr>
+                <td>Viernes 21 de febrero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td>Fecha límite para entrega de notas de aprobación directa de materias anuales y 2° semestre 2024.<br>
+                Fecha límite de entrega de cursados 2° semestre y anuales 2024</td>                
+              </tr>
+              <tr>
+                <td>Lunes 24 al viernes 28 de febrero</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (9º llamado)</td>                
+              </tr>
+              <tr>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f; font-weight:600">Lunes 3 y Martes 4 de marzo</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">&nbsp;</td>
+                <td style="background-color:#d9edf7; border-color:#bce8f1; color:#31708f">Carnaval. Feriado</td>                
+              </tr>
+              <tr>
+                <td>Miércoles 5 al viernes 7 de marzo</td>
+                <td style="width: 1px; background-color: #F0F0F0; border-right-color:#ddd; border-right-style:solid; border-right-width:1px">&nbsp;</td>
+                <td><span style="font-weight:600">Turno de exámenes finales</span> (10º llamado).</td>                
+              </tr>
+              
+              </tbody>
+          </table>
+          <br>
+          
+          <br><p>(*) Esta fecha queda supeditada a la que establezca el Ministerio de Educación de la Provincia de Buenos Aires.</p>
+          <p>(**) Receso estival: período que establece la Facultad para que los docentes gocen de su Licencia Anual Ordinaria (LAO), la que deberá ser comunicada a la Dirección de Recursos Humanos deésta Facultad Regional en un todo de acuerdo con el Convenio Colectivo de Trabajo (CCT) para Docentes de Instituciones Universitarias Nacionales.</p>
+          <p>(***) Receso académico: período en el cual no se desarrollan actividades académicas, a excepción del Seminario de Ingreso 2024.</p>
+          <div style="display:block">
+          <h5>Año 2024 -Sin actividad solo para quienes profesen la religión judía (artículo 2º Ley 27399)</h5>
+          <ul>
+          	<li>Pesaj primeros días desde el lunes 22/04/2024 al atardecer hasta el miércoles 24/04/2024 al atardecer</li>
+            <li>Pesaj últimos días desde el domingo 28/04/2024 al atardecer hasta el martes 30/04/2024 al atardecer</li>
+            <li>Rosh Hashaná desde el miércoles 2/10/2024 al atardecer hasta el viernes 4/10/2024 al atardecer</li>
+            <li>Iom Kipur desde el sábado 11/10/2024 al atardecer hasta el domingo 12/10/2024 al atardecer</li>
+          </ul>
+          <h5>Año 2024- Sin actividad solo para empleados, funcionarios de organismos públicos y alumnos de origen Armenio (Ley 26199)</h5>
+          <ul>
+          	<li><span style="font-weight:600">Ley N°26199:</span> dictada en conmemoración del genocidio sufrido por el pueblo armenio. Los empleados y funcionarios de organismos públicos y los alumnos de origen armenio quedan autorizados a disponer libremente de los días 24 de abril de todos los años para poder asistir y participar de las actividades que se realicen en conmemoración de la tragedia que afectó a su comunidad. Se invita a los gobiernos provinciales a adherir a las disposiciones de la presente ley</li>
+          </ul>
+          <h5>Año 2024 -- Sin actividad solo para quienes profesen la Religión Islámica (artículo 3º Ley 27399)</h5>
+          <ul>
+          	<li>Fechas aproximadas. Se rigen por el calendario lunar.</li>
+          </ul>
+          </div>   
+       </div>   	
+      </div>
+    </div>
+            
+
+<!-- script javascript -->
+<script type="text/javascript" charset="utf8" src="bootstrap/datatables/jquery/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" charset="utf8" src="bootstrap/datatables/popper/popper.min.js"></script>
+<script type="text/javascript" charset="utf8" src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" charset="utf8" src="bootstrap/datatables/datatables.min.js"></script>
+
+<!-- para usar botones en datatables JS -->  
+    <script src="bootstrap/datatables/Buttons-2.2.3/js/dataTables.buttons.min.js"></script>  
+    <script src="bootstrap/datatables/JSZip-2.5.0/jszip.min.js"></script>    
+    <script src="bootstrap/datatables/pdfmake-0.1.36/pdfmake.min.js"></script>    
+    <script src="bootstrap/datatables/pdfmake-0.1.36/vfs_fonts.js"></script>
+    <script src="bootstrap/datatables/Buttons-2.2.3/js/buttons.html5.min.js"></script>
+
+<script type="text/javascript" charset="utf8" src="bootstrap/datatables/main.js"></script>
+
+</body>
+</html>
